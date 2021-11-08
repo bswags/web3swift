@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -206,8 +206,7 @@
 		E16A00382738865400D7E08D /* sha256.c in Sources */ = {isa = PBXBuildFile; fileRef = E16A00102738861100D7E08D /* sha256.c */; };
 		E16A00392738865400D7E08D /* crypto_scrypt-hash.c in Sources */ = {isa = PBXBuildFile; fileRef = E16A00122738861100D7E08D /* crypto_scrypt-hash.c */; };
 		E16A003B2738865F00D7E08D /* crypto-scrypt-saltgen.c in Sources */ = {isa = PBXBuildFile; fileRef = E16A00182738861100D7E08D /* crypto-scrypt-saltgen.c */; };
-		E16A003E27388B4800D7E08D /* libscrypt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E16AFFE927387FA200D7E08D /* libscrypt.framework */; platformFilter = ios; };
-		E16A003F27388B4800D7E08D /* libscrypt.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E16AFFE927387FA200D7E08D /* libscrypt.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E16A003E27388B4800D7E08D /* libscrypt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E16AFFE927387FA200D7E08D /* libscrypt.framework */; };
 		E16AFF4527382C5800D7E08D /* EIP712.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB50A52927060C5300D7E39B /* EIP712.swift */; };
 		E22A911F241ED71A00EC1021 /* browser.min.js in Resources */ = {isa = PBXBuildFile; fileRef = E22A911E241ED71A00EC1021 /* browser.min.js */; };
 		E252E67F26B403F500717C16 /* web3swift_helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E252E67E26B403F500717C16 /* web3swift_helpers.swift */; };
@@ -228,30 +227,6 @@
 		F5213FFC2673849600EBDC50 /* Starscream.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5213FF32673849600EBDC50 /* Starscream.xcframework */; };
 		F5213FFD2673849600EBDC50 /* Starscream.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5213FF32673849600EBDC50 /* Starscream.xcframework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		E16A004027388B4800D7E08D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1317BCDA218C50D100D6D095 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E16AFFE827387FA200D7E08D;
-			remoteInfo = libscrypt;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		E16A004227388B4800D7E08D /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				E16A003F27388B4800D7E08D /* libscrypt.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1317BCE3218C50D100D6D095 /* web3swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = web3swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1219,12 +1194,10 @@
 				1317BCE0218C50D100D6D095 /* Frameworks */,
 				1317BCE1218C50D100D6D095 /* Resources */,
 				1317BE04218C5D1B00D6D095 /* Carthage */,
-				E16A004227388B4800D7E08D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E16A004127388B4800D7E08D /* PBXTargetDependency */,
 			);
 			name = web3swift;
 			productName = web3swift;
@@ -1311,7 +1284,7 @@
 				};
 			};
 			buildConfigurationList = 1317BCDD218C50D100D6D095 /* Build configuration list for PBXProject "web3swift" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -1587,15 +1560,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E16A004127388B4800D7E08D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			platformFilter = ios;
-			target = E16AFFE827387FA200D7E08D /* libscrypt */;
-			targetProxy = E16A004027388B4800D7E08D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1317BCF5218C50D100D6D095 /* Debug */ = {
