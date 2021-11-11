@@ -1,7 +1,7 @@
 /*-
  */
-#ifndef _CRYPTO_SCRYPT_H_
-#define _CRYPTO_SCRYPT_H_
+#ifndef LIBSCRYPT_H
+#define LIBSCRYPT_H
 
 
 #include <stdint.h>
