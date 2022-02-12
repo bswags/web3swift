@@ -310,7 +310,6 @@
 		3AA815372276E44100F5DB52 /* EthereumKeystoreV3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EthereumKeystoreV3.swift; sourceTree = "<group>"; };
 		3AA815392276E44100F5DB52 /* PlainKeystore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlainKeystore.swift; sourceTree = "<group>"; };
 		3AA8153A2276E44100F5DB52 /* AbstractKeystore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractKeystore.swift; sourceTree = "<group>"; };
-		3AA8153B2276E44100F5DB52 /* KeystoreV3JSONStructure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeystoreV3JSONStructure.swift; sourceTree = "<group>"; };
 		3AA8153D2276E44100F5DB52 /* BloomFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BloomFilter.swift; sourceTree = "<group>"; };
 		3AA8153E2276E44100F5DB52 /* TransactionSigner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionSigner.swift; sourceTree = "<group>"; };
 		3AA8153F2276E44100F5DB52 /* EthereumTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EthereumTransaction.swift; sourceTree = "<group>"; };
@@ -749,7 +748,6 @@
 				3AA815372276E44100F5DB52 /* EthereumKeystoreV3.swift */,
 				3AA815392276E44100F5DB52 /* PlainKeystore.swift */,
 				3AA8153A2276E44100F5DB52 /* AbstractKeystore.swift */,
-				3AA8153B2276E44100F5DB52 /* KeystoreV3JSONStructure.swift */,
 			);
 			path = KeystoreManager;
 			sourceTree = "<group>";
